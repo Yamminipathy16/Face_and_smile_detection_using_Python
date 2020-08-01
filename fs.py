@@ -1,7 +1,7 @@
 from cv2 import cv2
 
-face_cascade=cv2.CascadeClassifier("F:\\projects\\cv2\\haarcascade_frontalface_default.xml")
-smile_cascade=cv2.CascadeClassifier("F:\\projects\\cv2\\haarcascade_smile.xml")
+face_cascade=cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
+smile_cascade=cv2.CascadeClassifier("haarcascade_smile.xml")
 
 video=cv2.VideoCapture(0)#starts capturing video through PC's default camera
 
